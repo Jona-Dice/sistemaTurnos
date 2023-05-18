@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>¡Volviendo al inicio!</title>
+</head>
+<body>
+<script>
+let newWindow = open("sound/consultorio.mp3", "example", "width=300,height=300");
+
+
+setTimeout(function() { 
+newWindow.close() }, 2500);
+
+
+function start() {
+openClose();
+}
+
+
+window.onload = start;
+</script>
+<meta http-equiv="refresh" content="5; url= index.php">
+</body>
+</html>
